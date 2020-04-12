@@ -1,0 +1,7 @@
+{
+  "name": "FriendFinder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
