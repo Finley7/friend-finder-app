@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true">
+  <h1>Let's create your account.</h1>
+  <ion-item-divider color="inherit"></ion-item-divider>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <label for="username">Your name.</label>
+        <input id="username" type="text" placeholder="John Smith">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <label for="email">Your e-mail address.</label>
+        <input id="email" type="email" placeholder="hello@google.com">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <label for="email">Create a secure password.</label>
+        <input id="password" type="password" placeholder="notsafe123!">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-item-divider color="inherit"></ion-item-divider>
+  <ion-button expand="block" color="light" size="large">Create my account</ion-button>
+  <header>
+    <a routerLink="/">Back to login</a>
+  </header>
+</ion-content>
+

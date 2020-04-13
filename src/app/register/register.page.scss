@@ -1,0 +1,41 @@
+ion-content {
+  --ion-background-color: crimson;
+  --ion-text-color: #fff;
+}
+
+h1 {
+  font-weight: bold;
+  width: 100%;
+  font-size: 10vw;
+  padding: .5em;
+}
+
+label {
+  font-size: 6vw;
+  display: block;
+  font-weight: bold;
+  padding: .3em;
+}
+
+input {
+  background: #fff;
+  border-radius: 5px;
+  padding: .9em;
+  border: 0;
+  width: 100%;
+  color: #000;
+}
+ion-button {
+  width: 75%;
+  margin: auto;
+  font-weight: bold;
+}
+
+header {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.25em;
+  text-transform: uppercase;
+  text-align: center;
+}

@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "solutions.sense-it.friendfinder",
   "appName": "FriendFinder",
   "bundledWebRuntime": false,
   "npmClient": "npm",
