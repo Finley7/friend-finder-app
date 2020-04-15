@@ -1,0 +1,25 @@
+<ion-content [fullscreen]="true">
+  <ion-item-divider color="inherit"></ion-item-divider>
+  <h1>Let's log in.</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <label for="username">Your e-mail.</label>
+        <input [(ngModel)]="loginUser.email" id="username" type="email" placeholder="john@smith.com">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <label for="password">Your password.</label>
+        <input [(ngModel)]="loginUser.password" id="password" type="password" placeholder="secure123!">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-item-divider color="inherit"></ion-item-divider>
+  <ion-button (click)="login()" expand="block" color="light" size="large">Sign in</ion-button>
+  <ion-item-divider color="inherit"></ion-item-divider>
+  <header>
+    <a routerDirection="back" routerLink="/">Back to summary</a>
+  </header>
+</ion-content>
+
